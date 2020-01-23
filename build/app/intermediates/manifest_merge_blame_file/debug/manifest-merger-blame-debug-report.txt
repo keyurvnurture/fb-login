@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.practical.fb_login"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:3:5-67
+14-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/macbook/.gradle/caches/transforms-2/files-2.1/91ef52e9785a5b77b356864412ef7dec/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:24:5-79
+15-->[com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/macbook/.gradle/caches/transforms-2/files-2.1/91ef52e9785a5b77b356864412ef7dec/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:24:22-76
+16    <!--
+17 io.flutter.app.FlutterApplication is an android.app.Application that
+18         calls FlutterMain.startInitialization(this); in its onCreate method.
+19         In most cases you can leave this as-is, but you if you want to provide
+20         additional functionality it is fine to subclass or reimplement
+21         FlutterApplication and put your custom class here.
+22    -->
+23    <application
+23-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:9:5-46:19
+24        android:name="io.flutter.app.FlutterApplication"
+24-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:10:9-57
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/AndroidManifest.xml:22:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:12:9-43
+28        android:label="fb_login"
+28-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:11:9-33
+29        android:supportsRtl="true" >
+29-->[com.facebook.android:facebook-login:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/e701b96caefc22071e67a87e4349d8c4/jetified-facebook-login-4.39.0/AndroidManifest.xml:28:18-44
+30        <activity
+30-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:13:9-24:20
+31            android:name="com.example.fb_login.MainActivity"
+31-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:14:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:17:13-163
+33            android:hardwareAccelerated="true"
+33-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:18:13-47
+34            android:launchMode="singleTop"
+34-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:15:13-43
+35            android:theme="@style/LaunchTheme"
+35-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:16:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:19:13-55
+37            <intent-filter>
+37-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:20:13-23:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:21:17-68
+38-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:21:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:22:17-76
+40-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:22:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <meta-data
+44-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:28:9-107
+45            android:name="com.facebook.sdk.ApplicationId"
+45-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:28:20-65
+46            android:value="@string/facebook_app_id" />
+46-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:28:66-105
+47
+48        <activity
+48-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:29:9-30:110
+49            android:name="com.facebook.FacebookActivity"
+49-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:29:19-63
+50            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+50-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:29:64-160
+51            android:label="@string/app_name"
+51-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:30:75-107
+52            android:theme="@style/com_facebook_activity_theme" />
+52-->[com.facebook.android:facebook-common:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/08a9fb84ac403eaf0d251a53a25edd64/jetified-facebook-common-4.39.0/AndroidManifest.xml:32:13-63
+53        <activity
+53-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:32:9-39:20
+54            android:name="com.facebook.CustomTabActivity"
+54-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:32:19-64
+55            android:exported="true" >
+55-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:32:65-88
+56            <intent-filter>
+56-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:33:13-38:29
+57                <action android:name="android.intent.action.VIEW" />
+57-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:34:17-69
+57-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:34:25-66
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:35:17-76
+59-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:35:27-73
+60                <category android:name="android.intent.category.BROWSABLE" />
+60-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:36:17-78
+60-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:36:27-75
+61
+62                <data android:scheme="@string/fb_login_protocol_scheme" />
+62-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:37:17-75
+62-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:37:23-72
+63            </intent-filter>
+64        </activity>
+65
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+70-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:43:9-45:33
+71            android:name="flutterEmbedding"
+71-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:44:13-44
+72            android:value="2" />
+72-->/Users/macbook/Desktop/fb_login/android/app/src/main/AndroidManifest.xml:45:13-30
+73
+74        <activity android:name="com.facebook.CustomTabMainActivity" />
+74-->[com.facebook.android:facebook-common:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/08a9fb84ac403eaf0d251a53a25edd64/jetified-facebook-common-4.39.0/AndroidManifest.xml:33:9-71
+74-->[com.facebook.android:facebook-common:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/08a9fb84ac403eaf0d251a53a25edd64/jetified-facebook-common-4.39.0/AndroidManifest.xml:33:19-68
+75        <!--
+76         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+77         with the application context. This config is merged in with the host app's manifest,
+78         but there can only be one provider with the same authority activated at any given
+79         point; so if the end user has two or more different apps that use Facebook SDK, only the
+80         first one will be able to use the provider. To work around this problem, we use the
+81         following placeholder in the authority to identify each host application as if it was
+82         a completely different provider.
+83        -->
+84        <provider
+84-->[com.facebook.android:facebook-core:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/0493618e1eaf7186fe0015fd2f283def/jetified-facebook-core-4.39.0/AndroidManifest.xml:39:9-42:40
+85            android:name="com.facebook.internal.FacebookInitProvider"
+85-->[com.facebook.android:facebook-core:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/0493618e1eaf7186fe0015fd2f283def/jetified-facebook-core-4.39.0/AndroidManifest.xml:40:13-70
+86            android:authorities="com.practical.fb_login.FacebookInitProvider"
+86-->[com.facebook.android:facebook-core:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/0493618e1eaf7186fe0015fd2f283def/jetified-facebook-core-4.39.0/AndroidManifest.xml:41:13-72
+87            android:exported="false" />
+87-->[com.facebook.android:facebook-core:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/0493618e1eaf7186fe0015fd2f283def/jetified-facebook-core-4.39.0/AndroidManifest.xml:42:13-37
+88
+89        <receiver
+89-->[com.facebook.android:facebook-core:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/0493618e1eaf7186fe0015fd2f283def/jetified-facebook-core-4.39.0/AndroidManifest.xml:44:9-50:20
+90            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+90-->[com.facebook.android:facebook-core:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/0493618e1eaf7186fe0015fd2f283def/jetified-facebook-core-4.39.0/AndroidManifest.xml:45:13-86
+91            android:exported="false" >
+91-->[com.facebook.android:facebook-core:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/0493618e1eaf7186fe0015fd2f283def/jetified-facebook-core-4.39.0/AndroidManifest.xml:46:13-37
+92            <intent-filter>
+92-->[com.facebook.android:facebook-core:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/0493618e1eaf7186fe0015fd2f283def/jetified-facebook-core-4.39.0/AndroidManifest.xml:47:13-49:29
+93                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+93-->[com.facebook.android:facebook-core:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/0493618e1eaf7186fe0015fd2f283def/jetified-facebook-core-4.39.0/AndroidManifest.xml:48:17-95
+93-->[com.facebook.android:facebook-core:4.39.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/0493618e1eaf7186fe0015fd2f283def/jetified-facebook-core-4.39.0/AndroidManifest.xml:48:25-92
+94            </intent-filter>
+95        </receiver>
+96    </application>
+97
+98</manifest>
